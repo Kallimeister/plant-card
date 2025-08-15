@@ -147,6 +147,9 @@ PRs and issues are welcome! Please include:
 ## License
 
 MIT © Kallimeister
+---
+> This project has been co-authored with the assistance of OpenAI’s ChatGPT for drafting code and documentation. All code has been reviewed and adapted by the repository owner.
+
 
 ---
 
@@ -293,3 +296,5 @@ Pull Requests und Issues sind willkommen. Bitte mit:
 ## Lizenz
 
 MIT © Kallimeister
+---
+> Dieses Projekt wurde bei Code und Dokumentation mit Unterstützung von OpenAI ChatGPT erstellt. Der Code wurde vom Repository-Inhaber geprüft und angepasst.
