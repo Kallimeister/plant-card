@@ -22,6 +22,12 @@ A custom Lovelace card for Home Assistant to monitor and manage multiple plants 
 - Compact, responsive design for desktop and mobile
 - Fully localizable (English and German included)
 
+<p align="center">
+  <img src="www/Screenshot Card.png" width="900" alt="Plant Card – Dashboard" />
+  <img src="www/Screenshot Editor eingeklappt de.png" width="900" alt="Plant Card – Editor (collapsed)" />
+  <img src="www/Screenshot Editor ausgeklappt de.png" width="900" alt="Plant Card – Editor (expanded)" />
+</p>
+
 ---
 
 ## Installation
