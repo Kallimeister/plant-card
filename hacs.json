@@ -3,4 +3,6 @@
   "filename": "plant-card.js",
   "render_readme": true,
   "country": ["de", "en"]
+  "homeassistant": "2025.8.1"
 }
+
