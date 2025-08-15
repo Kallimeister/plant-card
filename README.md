@@ -32,20 +32,34 @@ A custom Lovelace card for Home Assistant to monitor and manage multiple plants 
 
 ## Installation
 
-### HACS (Recommended)
-_Not yet on HACS. Manual install for now._
+## Installation via HACS (Custom repository)
 
-### Manual installation
-1. Download the latest `plant-card.js` from Releases.
-2. Place it in your Home Assistant `www` folder:
-   ~~~
+1. In Home Assistant: **HACS → Frontend → Three-dot menu → Custom repositories**  
+2. Repository URL: `https://github.com/Kallimeister/plant-card`  
+   Category: **Dashboard**  
+3. Then go to **HACS → Frontend**, search for **Plant Card**, and **Download** it.  
+4. (If resources are not added automatically):  
+   **Settings → Dashboards → Resources**  
+   **Add resource**:  
+   URL: `/hacsfiles/plant-card/plant-card.js`  
+   Type: **JavaScript Module** (Module)  
+5. Add it to a dashboard:  
+   Type: `custom:plant-card`
+
+---
+
+## Manual Installation
+
+1. Download the latest `plant-card.js` from the Releases.  
+2. Place the file into your `www` folder:  
+   ```text
    config/www/plant-card.js
-   ~~~
-3. Add the resource in Home Assistant:
-   - Settings → Dashboards → Resources → **Add Resource**
-   - URL: `/local/plant-card.js`
-   - Resource type: **JavaScript Module**
-4. Refresh the browser cache (hard reload) and, if using the Companion App, clear the app cache.
+   ```
+3. Add the resource in Home Assistant:  
+   - **Settings → Dashboards → Resources → Add resource**  
+   - URL: `/local/plant-card.js`  
+   - Type: **JavaScript Module**  
+4. Refresh your browser cache (hard reload) and, if needed, clear the Companion App cache.
 
 ---
 
@@ -181,8 +195,20 @@ Eine benutzerdefinierte Lovelace-Karte für Home Assistant, um mehrere Pflanzen 
 
 ## Installation
 
-### HACS (empfohlen)
-_Nochnicht in HACS. Aktuell manuelle Installation._
+## Installation via HACS (Custom repository)
+
+1. In Home Assistant: **HACS → Frontend → Drei-Punkte-Menü → Benutzerdefinierte Pepositories**  
+2. Repository URL: `https://github.com/Kallimeister/plant-card`  
+   Category: **Dashboard**  
+3. Danach in **HACS → Frontend** nach **Plant Card** suchen und **Herunterladen**.
+4. (Falls Ressourcen nicht automatisch hinzugefügt werden):  
+   **Einstellungen → Dashboards → Ressourcen**  
+   **Ressource hinzufügen**:  
+   URL: `/hacsfiles/plant-card/plant-card.js`  
+   Typ: **Java-Script-Modul** (Module)
+5. In ein Dashboard einfügen:  
+   Typ: `custom:plant-card`
+
 
 ### Manuelle Installation
 1. Lade die aktuelle `plant-card.js` aus den Releases.
