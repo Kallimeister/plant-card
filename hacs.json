@@ -1,0 +1,6 @@
+{
+  "name": "Plant Dashboard Card",
+  "filename": "plant-card.js",
+  "render_readme": true,
+  "country": ["de", "en"]
+}
